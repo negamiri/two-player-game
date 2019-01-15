@@ -23,10 +23,11 @@ class Game
     @player1 = player1
     @player2 = player2
     @turn = 1
-    @user_answer = nil
     @current_player = ''
+
     @rand_num1 = 0
     @rand_num2 = 0
+    @user_answer = nil
     @correct_answer = 0
   end
 
